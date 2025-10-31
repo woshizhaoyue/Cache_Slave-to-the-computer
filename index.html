@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>媒体和记忆</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    //css里的样式
+    <div id="ui-rectangle" class="ui-rectangle">
+      <img id="brain-image" src="/media/brain.png" alt="Brain" />
+    </div>
+    <div id="ui-text" class="ui-text"></div>
+
+    <!-- 中央2D UI窗口 -->
+    <div id="center-ui-window" class="center-ui-window">
+      <div class="ui-window-content">
+        <div id="text-content" class="text-content">
+          <p class="text-line"><span id="typed-text"></span><span class="cursor">|</span></p>
+        </div>
+      </div>
+    </div>
+
+    //js里的代码
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
